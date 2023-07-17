@@ -1,0 +1,23 @@
+# Variável para Data Driven Pytest
+examples_invalid_fields = [
+    ("email", "123"),
+    ("email", "123.to_i"),
+    ("email", "None"),
+    ("email", "Null"),
+    ("email", "number_negative"),
+    ("email", "boolean_true"),
+    ("email", "boolean_false"),
+    ("email", "256.characters_type_string"),
+    ("email", "256.characters_type_numbers"),
+    ("email", "Array"),
+    ("email", "Hash"),
+    ("password", "None"),
+    ("password", "Null"),
+    ("password", "number_negative"),
+    ("password", "boolean_true"),
+    ("password", "boolean_false"),
+    ("password", "256.characters_type_string"),
+    ("password", "256.characters_type_numbers"),
+    ("password", "Array"),
+    ("password", "Hash"),
+]
