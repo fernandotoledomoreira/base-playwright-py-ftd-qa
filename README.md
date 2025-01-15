@@ -25,3 +25,10 @@ O Tamplete utilizando Python, Pytest, Playwight, Allure e Faker para realizar te
 - Utilizando os players do próprio VSCODE
 - Via terminal com (pytest -k tag_test)
 - Utilizando paralelismo (pytest -k tag_test -n auto)
+
+<img width="804" alt="image" src="https://github.com/user-attachments/assets/4f972376-a865-4867-bc23-d66922a4acbc" />
+<img width="1430" alt="image" src="https://github.com/user-attachments/assets/1913921d-72eb-439f-8689-82e8eea70099" />
+<img width="1431" alt="image" src="https://github.com/user-attachments/assets/cb8c89bb-6dd8-48d7-aff6-a82fc29fb8ed" />
+
+
+
