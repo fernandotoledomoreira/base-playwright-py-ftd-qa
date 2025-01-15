@@ -9,7 +9,6 @@ LOG = LogService
 class AwsUtils:
 
     # Método para realizar conexão com AWS
-    @staticmethod
     def credentials_aws():
         try:
             sts_client = boto3.client('sts', aws_access_key_id=os.environ['aws_access_key_id_temp_qa'],
@@ -29,7 +28,6 @@ class AwsUtils:
         return session
 
     # Método para consultar o serviço "secrets manager" da AWS
-    @staticmethod
     def get_sm_secret_value(credential, secret_name):
         LOG.log_info(f"Iniciando busca do secrets: {secret_name}")
         try:

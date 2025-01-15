@@ -10,4 +10,3 @@ pytest-xdist
 faker
 hypothesis
 allure-python-commons
-git+ssh://git@github.com/dock-tech/allure-pytest-dock-lib.git@master
